@@ -1,0 +1,18 @@
+Hii I am Yoour Starter brother an dlletter on the best helinng the best  for you
+
+
+import speechRecognizer as Sr 
+
+Audio_file = ('example.wav')
+
+r = sr.recognizer 
+
+with sr.AUDIOFILE(Audio_file) as source
+     file = r.record(source)
+     #Reads The AUDIOFILE
+try:
+    print('The Audio file Contains',  r.Recognize_Google(file))
+except sr.unknownValueError:
+    print(Google speech file Could not understand audio )
+except sr.     
+      
